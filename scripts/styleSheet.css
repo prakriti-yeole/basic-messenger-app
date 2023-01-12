@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'arial';
+	src: url(../fonts/trebuc.ttf);
+}
+
+* {
+	letter-spacing: 0.5px;
+
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+
+}
+
+.heading {
+
+	color: #f4c531;
+
+	text-align: center;
+
+	font-family: "Great Vibes", cursive;
+	font-size: 40px;
+	margin: 3px;
+	font-weight: normal;
+
+
+	text-shadow: 0 1px 1px #fff;
+}
+
+
+
+.table {
+	border: 2px solid rgb(237, 237, 241);
+	border-radius: 0px;
+	background-color: whitesmoke;
+	opacity: 2;
+	box-shadow: 0px 0px 10px #f8fafa;
+	padding: 7px 7px;
+}
+
+.tableHead {
+	font-family: "arial";
+	color: #b978f3cc;
+	font-size: 30px;
+	border-color: #151414;
+	text-decoration: underline overline;
+
+	text-shadow: 0px 0px 0px #de0a0a;
+	font-weight: normal;
+}
+
+.labels {
+	font-family: "arial";
+	color: rgb(35, 33, 33);
+	font-size: 18px;
+	text-shadow: 0px 0px 0px #000000;
+	font-style: italic;
+}
+
+
+.fields,
+input[type=submit] {
+	font-family: "Segoe UI";
+	color: rgb(21, 20, 20);
+	text-shadow: 0px 0px 0px #000000;
+	font-size: 14px;
+	border: 1px solid rgb(21, 21, 234);
+	border-radius: 7px;
+	background-color: inherit;
+	padding: 10px 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.fields:hover,
+.fields:focus,
+input[type=submit]:hover {
+	font-family: "arial";
+	color: #151414;
+	font-size: 14px;
+	border: 1px solid #FFF;
+	border-radius: 7px;
+	background-color: rgb(204, 216, 222);
+	padding: 10px 10px;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 1.00);
+	cursor: pointer;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.fields2 {
+	font-family: "arial";
+	color: rgb(29, 25, 25);
+	font-size: 14px;
+
+	border: 1px solid #66F;
+	border-radius: 7px;
+	background-color: transparent;
+	padding: 10px 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.commandButton {
+	border: 2px solid #66F;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #FFF;
+	background-color: transparent;
+}
+
+
+a:link {
+	font-family: "arial";
+	color: #3FF;
+	text-decoration: none;
+	font-size: 16px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 3px #333333;
+}
+
+a:active {
+	font-family: "Segoe UI";
+	color: #3FF;
+	text-decoration: none;
+	font-size: 16px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 3px #333333;
+}
+
+a:visited {
+	font-family: "Segoe UI";
+	color: #3FF;
+	text-decoration: none;
+	font-size: 16px;
+	text-shadow: 2px 2px 3px #333333;
+}
+
+a:hover {
+	font-family: "Segoe UI";
+	color: #3FF;
+	text-decoration: none;
+	font-size: 16px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 3px #333333;
+}
+
+.text {
+	font-family: "arial";
+	color: rgb(252, 204, 49);
+	font-size: 16px;
+	text-shadow: 0px 0px 2px #000000;
+}
+
+.info {
+	font-family: "arial";
+	color: #F30;
+	font-size: 14px;
+	text-shadow: 0px 0px 0px #000000;
+}
+
+.nick {
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.msg {
+	font-family: "arial";
+	font-size: 16px;
+	color: rgb(20, 19, 19);
+}
+
+td {
+	vertical-align: top;
+	color: #000000;
+}
